@@ -1,0 +1,224 @@
+.logo img {
+    width: 128px;
+}
+
+img {}
+
+header {
+    display: flex;
+    width: 100%;
+    min-height: 64px;
+    justify-content: space-around;
+}
+
+.menu nav ul, .social ul {
+    list-style: none;
+    display: flex;
+    flex-direction:row
+}
+
+.menu nav ul li, .social ul li{
+    margin:0px 12px;
+}
+
+.menu, .social {
+    display: flex;
+    align-items: center;
+}
+
+.menu a, .social a {
+    text-decoration: none;
+    color: black;
+}
+section.banner {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section.banner {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(banner.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+ section.banner.conteudo {
+    background-color: #e7e7e7;
+    padding: 12px;
+
+ }
+ section.banner  .botao{
+    margin:12px 12px;
+    background-color: bisque ; 
+    padding: 16px;
+    border-radius: 12px;
+    cursor: pointer;
+ }
+ section.sobre{
+    width: 100%;
+    margin: 12px;
+    display: flex;
+    flex-direction: row;
+ }
+ section.sobre .imagem img{
+    width:50vw ;
+ }
+ section.Sobre div{
+    width:50vw ;
+    overflow: hidden;
+ }
+ section.Sobre .conteudo{
+    margin:12px 24px ;
+ }
+section.produtos {
+    width: 100%;
+    margin: 12px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+section.jumbotron {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 90px auto;
+    gap: 22px;
+}
+
+section.jumbotron div.banner-pequeno {
+    margin: 0px 25px;
+    padding: 18px;
+}
+
+section#sobre {}
+
+section#sobre {
+    display: flex;
+    flex-direction: row;
+}
+
+section.jumbotron div.banner-pequeno h3 {
+    font-size: 25px;
+    line-height: 0px;
+}
+
+section.jumbotron div.banner-pequeno h3, section.formulario h3 {
+    font-size: 25px;
+    line-height: 0px;
+}
+
+section.jumbotron banner-pequeno p, section.formulario h3 {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+section.jumbotron div .bannner-pequeno button, section.formulario #form input[type="submit"] {
+    background: transparent;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 6px 12px;
+    font-size: 18px;
+
+}section.jumbotron div.banner-pequeno {
+    margin: 0px 25px;
+    padding: 18px;
+    border: 1px solid;
+    border-radius: 6px;
+    background: grey;
+}
+section.jumbotron div .banner-pequeno.dark{
+    border-color: transparent;
+    background-color: #212529;
+}
+
+
+section.jumbotron bannner-pequeno.dark button,
+section.jumbotron banner-pequeno.dark p,
+section.jumbotron div.banner-pequeno.dark h3{
+     color: #e7e7e7;
+    border-color: white;
+
+}
+section.jumbotron div.bannner-pequeno button:hover, section.formulario #form input[type="submit"]:hover{
+               background-color:#212529;
+               color:#fefefe;
+               border-color:#fefefe;
+               cursor: pointer;
+}
+
+section.jumbotron div.bannner-pequeno.dark button:hover{
+                background-color: #fefefe;
+                color: #212529;
+                border-color: #212529;
+}
+ section.formulario form#form input{
+                 width: 100%;
+                 padding: 6px;
+                 margin: 6px auto;
+ }
+
+ section.formulario form#form{
+     width: 45vw;
+     margin: 1rem auto;
+ }
+ section.formulario form#form input[tupe="subit"]{
+    width: 180px;
+    margin:6px auto 6px 0px ;
+ }
+
+ section.formulario h3, section.formulario p{text-align: center;}
+
+ footer div.espasamento {
+    width: 90%;
+    height: 42px;
+    border-bottom: 1px solid;
+    margin: 0px auto;
+}
+
+footer div.footer-interno {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    padding: 24px;
+    margin: 12px auto;
+    justify-content: space-around;
+    color: #7c7c7cc7;
+}
+footer div.footer-interno .footer-coluna-1 img{
+    width: 96px;
+} 
+
+footer footer-inter .footer-coluna ul{
+    list-style: nome;
+    padding: 0px;
+    margin: 0px;
+}
+
+footer .footer-interno .footer-coluna ul li{
+    margin: 6px auto;
+}
+
+footer .footer-interno .footer-coluna ul li.titulo{
+    font-size: 22px;
+    font-weight: 800;
+    color: #363636;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
