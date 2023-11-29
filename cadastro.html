@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    
+</head>
+<body>
+  <style>
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(90deg, rgb(182, 155, 253), rgb(104, 128,180))
+    }
+
+    div{
+    background-color: rgb(189, 184, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px;
+    border-radius: 30px;
+    }
+    input{
+        padding: 10px;
+        font-size: 15px;
+        outline: nome;
+    }
+
+    button{
+    padding: 15px;
+    width: 200px;
+    font-size: 15px;
+    }
+
+    button:hover{
+        background-color: rgb(192, 204, 238);
+        color: rgb(196, 161, 178);
+        cursor:pointer
+    }
+    .menu{
+    background-color: rgb(112, 118, 202);
+    width: 90%;
+    padding: 18px 8%;
+    float: left;
+}
+
+.menu li{
+    float: left;
+}
+
+.menu li a{
+    color: black;
+    margin-right: 30px;
+    padding: 8px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color: rgb(85, 128, 245);
+    background-color: srgb(255, 207, 231);
+    padding: 8px;
+    border-radius: 6px;
+}
+select{
+    padding: 10px;
+}
+  </style>
+    </header>
+    <nav class="menu">
+        <li><a href="index.html">Quem Somos</a></li>
+        <li><a href="nosso diferencial.html">Nosso Deferencial</a></li>
+      
+        <form>
+            <div class="formulario">
+     &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<label>Favor, Preencha o cadastro</label><br><br>
+     &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   <label form="nome">Nome*</label>
+       <input type="text" placeholder="Digite seu nome"size="50%" required><br><br>
+       &nbsp;&nbsp; &nbsp;  <label form="Endereço">Endereço*</label>
+       <input type="text" placeholder="Digite seu endereço"size="50%" required><br><br>
+       &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <label form="nome">Cidade</label>
+       <select>
+        <option>---Selecione---</option>
+        <option> Campo Bom</option>
+          <option>Estância Velha</option>
+          <option>Ivoti</option>
+          <option>Novo Hamburgo</option>
+          <option>São Leopoldo</option>
+          <option>Sapiranga</option>
+          <option>Sapucaia do Sul</option>
+        </select><br><br>
+        &nbsp;&nbsp; &nbsp; &nbsp;   <label form="Telefone">Telefone*</label>
+        <input type="text" placeholder="Digite seu telefone"size="50%" required><br><br>
+        &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;    <label form="E-mail">E-mail*</label>
+        <input type="text" placeholder="E-mail"size="50%" required><br><br>
+        &nbsp;&nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; &nbsp; &nbsp;   &nbsp;&nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; <a href="index.html"><input type="submit" value="Cadastrar"></a> 
+        <input type="reset" value="Limpar"
+        </div>
+        </form>
+  
+</body>
+</html>
